@@ -1,9 +1,14 @@
-import './App.css';
+import Listings from './components/Listings';
+import Background from './components/Background';
+import TopBar from './components/TopBar';
 
-function App() {
+const App = () => {
+
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <Background />
+      <Listings />
     </div>
   );
 }
